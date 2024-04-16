@@ -1,0 +1,17 @@
+git init
+git add <file（5）>
+git commit -m "
+..."
+git status
+git log
+git checkout < id>
+git revert ‹id>
+git reset < id>
+Initialize a Git repository (only required once per project)
+Stage code changes (for the next commit)
+Create a commit for the staged changes (with a message)
+Get the current repository status (e.g., which changes are staged)
+Output a chronologically ordered list of commits
+Temporarily move back to commit <id>
+Revert the changes of commit <id> (by creating a new commit)
+Undo commit(s) up to commit <id> by deleting commits
